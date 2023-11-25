@@ -40,7 +40,7 @@ function Login() {
               <Form.Label>Hasło</Form.Label>
               <Form.Control type="password" ref={passwordRef} required />
             </Form.Group>
-            <Button disabled={loading} className="w-100" type="submit">
+            <Button className="mt-2 w-100" disabled={loading} type="submit">
               Zaloguj się
             </Button>
           </Form>

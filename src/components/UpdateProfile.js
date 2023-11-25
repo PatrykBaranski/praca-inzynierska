@@ -70,7 +70,7 @@ function UpdateProfile() {
                 placeholder="Zostaw puste aby zachować hasło"
               />
             </Form.Group>
-            <Button disabled={loading} className="w-100" type="submit">
+            <Button disabled={loading} className="w-100 mt-2" type="submit">
               Zaktualizuj
             </Button>
           </Form>
